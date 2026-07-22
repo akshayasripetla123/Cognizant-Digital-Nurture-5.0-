@@ -1,0 +1,65 @@
+.App {
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.App h1 {
+  text-align: center;
+  color: #1e3a5f;
+}
+
+.App button {
+  display: block;
+  margin: 0 auto 25px auto;
+  padding: 8px 16px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.App button:hover {
+  background-color: #256b45;
+}
+
+.section {
+  background-color: #f4f8fb;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  color: #1e3a5f;
+  border-bottom: 2px solid #d9e2ec;
+  padding-bottom: 8px;
+}
+
+.section h3 {
+  color: #2e8b57;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.section ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.section li {
+  padding: 3px 0;
+}
+
+.low-score {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.merged {
+  color: #8e44ad;
+}
